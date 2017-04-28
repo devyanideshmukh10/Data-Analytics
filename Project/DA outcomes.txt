@@ -1,0 +1,32 @@
+Analyze the relation between neighbourhood places crime rate.
+Analyze the type of crime that occured most and in which year.
+Find a correlation between the crime type theft and the year and Find if it incraesed or decreased  and the days who did.
+Find the 5 most crime zone and map in chicago in tableu.
+
+Predicting which type of criminal is arrested and if hes arrested when the case is updated.
+
+10 mks - domain understanding
+10 - Q & A
+3 ques from audience
+5- technical slides
+
+examples outcomes search functions/tools/ facilities/history - wat used to happen nd is happening
+internal detail
+block diagram
+tree diagram
+use details of a particular thing in a detail
+references
+
+structure/outline
+wat is my domain about
+how a search engine works/ what is web crawler
+other names
+process diagram
+
+pca weka
+
+
+
+
+
+

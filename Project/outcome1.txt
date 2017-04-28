@@ -1,0 +1,16 @@
+library(arules)
+library(arulesViz)
+library(plyr)
+library(readr)
+
+outcome_data <- read_csv("C:/DD/DA/Project/Outcome1.csv")
+data_factor <- sapply(outcome_data,as.factor)
+data_sorted <- outcome_data[order(outcome_data$Year),] 
+data_itemList <- ddply(outcome_data,c("Year","PrimaryType"))
+write.csv(data_itemList,"ItemList.csv", row.names = TRUE)
+
+txn = read.transactions(file="Outcome1.csv", rm.duplicates= TRUE, format="basket",sep=",",cols=1);
+basket_rules <- apriori(txn,parameter = list(sup = 0.01, conf = 0.5,target="rules"));
+plot(basket_rules)
+head(basket_rules)
+inspect(basket_rules)

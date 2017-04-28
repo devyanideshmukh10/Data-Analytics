@@ -1,0 +1,3 @@
+show graphical representation of crime types in a pie chart
+konsa crime kitne percent ka hua h
+trend analysis of crimes for past 15 years
